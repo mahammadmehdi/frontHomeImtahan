@@ -1,0 +1,37 @@
+.navigation {
+  position: relative;
+  .navbar {
+    position: absolute;
+    background-color: #10634ee3;
+    z-index: 2;
+    width: 100%;
+    color: white;
+    height: 10vh;
+    .header {
+      display: flex;
+      width: 90%;
+      margin: auto;
+      justify-content: space-between;
+      align-items: center;
+      height: 10vh;
+      .left {
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+      }
+
+      .right {
+        .pages {
+          display: flex;
+          gap: 20px;
+          
+
+          li {
+            cursor: pointer;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}

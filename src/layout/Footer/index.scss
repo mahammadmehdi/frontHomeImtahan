@@ -1,0 +1,73 @@
+.footer {
+    background-color: #e0ecdc;
+    height: 40vh;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+  .foot {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    .left {
+      .img {
+        width: 116px ;
+        height: 46px ;
+      }
+      .input {
+        width: 270px;
+        border-bottom: 1px solid #1b745e;
+        input {
+          outline: none;
+          border: none;
+          background-color: transparent;
+        }
+        .btn {
+          width: 100px;
+          height: 48px;
+          background-color: #c4d5c0;
+          border: none;
+          color: #0c5b47;
+        }
+      }
+    }
+    .about{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      color: #1b745e;
+      h4{
+        font-size: 22px;
+      }
+      .pages{
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          li{
+            font-size: 18px;
+          }
+      }
+    }
+    .contact{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      color: #0c5b47;
+      h4{
+        font-size: 22px;
+      }
+      .pages{
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          li{
+            font-size: 18px;
+          }
+      }
+    }
+    .follow{
+        color: #0c5b47;
+        font-size: 22px;
+    }
+  }
+}

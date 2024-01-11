@@ -1,0 +1,23 @@
+.eventPircing{
+    padding-top: 5%;
+    background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/background1.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    .head{
+        font-size: 18px;
+        color: #1b745e;
+        line-height: 27px;
+    }
+    .main{
+        font-size: 46px;
+        color: #0c5b47;
+        line-height: 50.6px;
+    }
+    .eventPircingCards{
+        display: flex;
+        gap: 80px;
+    }
+}

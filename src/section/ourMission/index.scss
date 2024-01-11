@@ -1,0 +1,45 @@
+.ourMission{
+    background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/background2.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+.ourMissionCards{
+    width: 50%;
+    display: flex;
+    .left{
+width: 50%;
+background-color: #1b745e;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 30px;
+
+.head{
+color: white;
+font-size: 46px;
+}
+.text{
+width: 60%;
+color: white;
+font-size: 16px;
+}
+.btn{
+    width: 160px;
+    height: 46px;
+    font-size: 16px;
+    background-color: #d8e3d5;
+    color: #232323;
+    border: none;
+}
+    }
+    .right{
+width: 50%;
+height: 50vh;
+img{
+    height: 50vh;
+}
+    }
+}
+}
